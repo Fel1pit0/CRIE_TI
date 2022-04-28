@@ -1,0 +1,90 @@
+    h2 {color: #494949;}
+
+    h3 {color: #494949;}
+
+    #about {background-color:#f6f8f3;
+            padding-top:40px;
+            padding-bottom:40px;}
+
+    #quote {background-color: #f9742b;
+            color:#ffffff;
+            padding-top:40px;
+            padding-bottom:40px;
+            /*height:150px;*/}
+
+    #quote h3 {color:#ffffff;}
+
+    #footer {background-color:#424242;
+            color:#ffffff;
+            padding-top:40px;
+            padding-bottom:40px;
+            text-align:center;}
+
+    .product-image {width:100%;
+                    height: 400px;
+                    object-fit: cover;}
+
+    .product-name {text-align: center;
+                   font-weight: bold;
+                   font-size: 20px;}
+
+    .banner {width:100%;
+             height: 600px;
+             margin-top: 80px;
+            object-fit: cover;}
+    /* section {background-color:#f6f8f3;}*/
+
+    .row {margin: 20px;}
+
+    .column {width: 50%;
+             display: flex;
+             padding: 20px;
+             box-sizing: border-box;}
+
+    .clearfix {clear: both;}
+
+    .container {width: 1000px;
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;}
+
+    .video {display: block;
+            margin-right: auto;
+            margin-left: auto;
+            width: 560px;
+            height: 315px;
+            max-width: 100%;
+            /*width="560" heigth="315"*/}
+
+    .input,textarea,select {width: 100%;}
+
+    .from-item {width: 100%;
+                min-height: 30px;
+                margin-bottom: 20px;
+                box-sizing: border-box;}
+
+    header {display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            height: 80px;}
+
+    .brand-name {color: #f9742b;
+                 margin-right: 20px;}
+
+    .brand-name a {color: inherit;
+                   text-decoration: none;}
+
+    .brand-phrase {margin-left: 0;
+                   margin-right: auto;}
+     
+    #products a {text-align: center;
+                 display: block;}
+
+    .row-flex {display: flex;
+                justify-content: space-between;}

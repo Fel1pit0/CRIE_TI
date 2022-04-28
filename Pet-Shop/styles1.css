@@ -1,0 +1,712 @@
+. bandeira {
+    largura :  100 % ;
+    altura :  600px ; _
+    margem superior :  40 px ;
+    ajuste ao objeto : capa;
+    }
+    
+    cabeçalho {
+      exibição : flexível;
+      align-items : centro;
+      justificar-conteúdo : espaço entre;
+      preenchimento :  0  20 px ;
+      posição : fixo;
+      topo :  0 ;
+      esquerda :  0 ;
+      direita :  0 ;
+      cor de fundo :  # ffffff ;
+      altura :  80px ; _
+      box-shadow :  0  5 px  1 em  # cecece ;
+    }
+    
+    . marca {
+      cor :  # ff0077 ;
+      margem direita :  20 px ;
+      font-family :  'Open Sans' , sans-serif;
+    }
+    
+    . marca  a {
+      cor : herdar;
+      decoração de texto : nenhuma;
+      largura :  16px ; _
+    }
+    
+    # serviço {
+        text-align : centro;
+    }
+    
+    . sobre-seção {
+      cor de fundo :  # 0066ff ;
+      cor :  #ffffff ; _
+      padding-top :  20 px ;
+      fundo de preenchimento :  40 px ;
+      margin-left : auto;
+      margin-right : auto;
+      text-align : esquerda;
+      
+    }
+    
+    . fonte {
+      font-family :  'Open Sans' , sans-serif;
+      peso da fonte :  100 ;
+      tamanho da fonte : médio;
+    }
+    . descrição da fonte {
+        font-family :  'Open Sans' , sans-serif;
+        peso da fonte :  100 ;
+        cor : cinza;
+        decoração de texto : nenhuma;
+    }
+    . linha {
+      margem :  -20px ; _
+    }
+    
+    . coluna {
+      largura :  25 % ;
+      exibição : bloco em linha;
+      flutuar : esquerda;
+      
+      preenchimento :  20px ; _
+      box-sizing : border-box;
+    }
+    
+    . nome do produto {
+      cor :  # ff0077 ;  
+      text-align : centro;
+      peso da fonte : negrito;
+      peso da fonte :  700 ;
+      font-family :  'Open Sans' , sans-serif
+      
+    }
+    
+    . recipiente {
+      largura :  1000px ; _
+      largura máxima :  100 % ;
+      margin-left : auto;
+      margin-right : auto;
+      
+    }
+    
+    eu {
+      cor :  # ff0077 ;
+      tamanho da fonte :  4 rem ;
+      padding-bottom :  15 px ;
+    }
+    
+    . correção clara {
+      claro : ambos;
+    }
+    
+    . logotipo {
+      largura :  200px ; _
+      altura :  150px ; _
+      padding-left :  40 px ;
+    }
+    
+    . logo-sobre {
+      largura :  200px ; _
+      altura :  150px ; _
+    }
+    
+    navegação {
+      cor : preto;
+      padding-right :  40 px ;
+      padding-left :  10 px ;
+      justificar-conteúdo : espaço entre;
+      exibição : bloco em linha;
+      
+    }
+    navegue  em {
+      cor : preto;
+      font-family :  'Open Sans' , sans-serif;
+      peso da fonte :  600 ;
+      decoração de texto : nenhuma;
+      altura :  70px ; _
+    }
+    
+    um . ativo {
+      cor :  #ffffff ; _
+      fundo :  # ff0077 ;
+      padding-left :  10 px ;
+      padding-right :  10 px ;
+      padding-top :  30 px ;
+      padding-bottom :  30 px ;
+    }
+    
+    
+    
+    
+    
+    . produtos {
+      text-align : centro;
+    
+    }
+    
+    . produtos-linha {
+      margem :  -20px ; _
+      decoração de texto : nenhuma;
+      
+    }
+    
+    . produtos-coluna {
+      largura :  15 % ;
+      exibição : bloco em linha;
+      altura :  250px ; _
+      flex- wrap : wrap;
+      flutuar : esquerda;
+      topo de preenchimento :  0 ;
+      box-sizing : border-box;
+      preenchimento :  0 ;
+      margem esquerda :  10 px ;
+      margem superior :  10 px ;
+      margem inferior :  30 px ;
+      
+      
+    }
+    . produtos-coluna :: conteúdo {
+        raio da borda : 10 px ;
+        opacidade :  0,5 ;
+    
+    }
+    
+    . produtos  img {
+      largura :  9 rem ;
+      borda :  # 858585 ;
+      raio da borda :  10 px ;
+    }
+    . valor {
+        cor :  # ff0077 ;
+        tamanho da fonte :  16 px ;
+        text-align : centro;
+        max-height :  10 px ;
+        
+    }
+    . descrição {
+        cor :  # 858585 ;
+    }
+    # botão-vermais {
+    largura : 130px ; _
+    altura : 40px ; _
+    tamanho da fonte :  16 px ;
+    cor : #ffffff ; _
+    cor de fundo : # ff0077 ;
+    raio da borda : 10 px ;
+    margem esquerda :  45 % ;
+    margem superior :  10 % ;
+    estilo de borda : nenhum;
+    margem inferior :  10 px ;
+    }
+    . informa {
+        cor de fundo :  # ff0077 ;
+        cor : # ffd8ea ;
+      padding-top :  20 px ;
+      fundo de preenchimento :  40 px ;
+      margin-left : auto;
+      margin-right : auto;
+      text-align : esquerda;
+    }
+    . titulo-contato {
+        largura :  150px ; _
+        altura :  80px ; _
+        margem esquerda :  5 % ;
+        }
+    # contato {
+        font-family :  'Open Sans' , sans-serif;
+        peso da fonte :  100 ;
+        tamanho da fonte :  16 px ;
+        cor :  # ffd8ea ;
+        decoração de texto : nenhuma;
+        margem esquerda :  5 % ;
+    }
+    . horário de funcionamento {
+        font-family :  'Open Sans' , sans-serif;
+        text-align : centro;
+        exibição : bloco em linha;
+        tamanho da fonte :  16 px ;
+        cor : # ffd8ea ;
+        flutuar : esquerda;
+        margem esquerda :  38 % ;
+        margem superior :  -15 % ;
+        }
+    # horas de texto {
+        font-family :  'Open Sans' , sans-serif;
+        tamanho da fonte :  16 px ;
+    
+    }
+    . redes {
+        font-family :  'Open Sans' , sans-serif;
+        tamanho da fonte :  16 px ;
+        text-align : centro;
+        exibição : bloco em linha;
+        cor : # ffd8ea ;
+        flutuar : esquerda;
+        margem esquerda :  80 % ;
+        margem superior :  -15 % ;
+    
+    }
+    . item-nav {
+    margem :  0  20 px ;
+    }
+    a : pairar {
+      cor :  # ff0077 ;
+      
+    }
+    a : visitou {
+    largura : 20px ; _
+    cor de fundo :  # ff0077 ;
+    preenchimento :  10px ; _
+    
+    
+              
+    }
+    
+    
+    
+    
+    
+    rodapé {
+      cor de fundo :  # ff0077 ;
+      cor :  # ffd8ea ;
+      padding-top :  40 px ;
+      fundo de preenchimento :  40 px ;
+      text-align : centro;
+      tamanho da fonte :  14 px ;
+      margem superior : 0,82 px ;
+    }
+      . rede-linha {
+        margem :  -20px ; _
+      }
+    
+      . rede-coluna {
+        largura :  25 % ;
+        exibição : bloco em linha;
+        flutuar : esquerda;
+        preenchimento :  2px ; _
+        box-sizing : border-box;
+      }
+    
+      
+    
+    . produto1 : passe {
+        
+        decoração de texto : nenhuma;  
+        font-family :  'Open Sans' , sans-serif;
+        estilo de borda : sólido;
+        cor da borda :  # 858585 ;
+        raio da borda : 10 px ;
+        largura da borda : fina;
+        opacidade :  0,5 ;
+    
+    }
+    
+        
+    
+    . produto1 {
+        decoração de texto : nenhuma;  
+        font-family :  'Open Sans' , sans-serif;
+        
+    }
+    /*Página sobre*/
+    
+    # imagem-sobre {
+        largura :  900x ; _
+    altura :  600px ; _
+    padding-left :  60 px ;
+    margem superior : 10 % ;
+    margem inferior :  50 px ;
+    }
+    
+    # texto sobre {
+        exibição : bloco em linha;
+        alinhamento vertical : topo;
+        margem superior :  -35 % ;
+        margem esquerda :  30 % ;
+        cor : # 382c32 ;
+    }
+    * {
+        font-family : 'Open Sans' , sans-serif;
+    }
+    
+    # título-sobre {
+    tamanho da fonte :  36 px ;
+    margem superior :  8 px ;
+    cor :  # 382c32 ;
+    }
+    
+    . pag-sobre {
+        margem superior :  30 px ;
+    }
+    # botão-faleconosco {
+    largura : 150px ; _
+    altura : 40px ; _
+    tamanho da fonte :  16 px ;
+    cor : #ffffff ; _
+    cor de fundo : # ff0077 ;
+    raio da borda : 10 px ;
+    margem esquerda :  0 ;
+    margem superior :  20 px ;
+    estilo de borda : nenhum;
+    margem inferior :  10 px ;
+    
+    }
+    . redes  eu {
+        cor : #ffffff ; _
+        tamanho da fonte :  1 rem ;
+        padding-bottom :  15 px ;
+        
+      }
+    
+      . rede-linha {
+        margem :  -10px ; _
+      }
+    
+      . rede-coluna {
+        largura :  15 % ;
+        exibição : bloco em linha;
+    
+        preenchimento :  10px ; _
+        box-sizing : border-box;
+      }
+    
+      
+    
+      
+      
+    
+    /*serviços*/
+    
+    . serviços de texto {
+        exibição : bloco em linha;
+        margem inferior :  30 px ;
+        margem esquerda :  45 % ;
+        margem superior :  -26 % ;
+        flutuar : esquerda;
+        
+    }
+    
+    # titulo-banho {
+      text-align : esquerda;
+        cor :  # ff0077 ;
+        
+    }
+    # imagem-banho {
+    largura :  200x ; _
+    altura :  350px ; _
+    margem superior : 70 px ;
+    margem inferior : 0 ;
+    margem esquerda :  -10 px ;
+    ajuste ao objeto : capa;
+    
+    }
+    
+    # texto-banho {
+        text-align : esquerda;
+        margem superior :  10 % ;
+    }
+    
+    # text-banho2 {
+        exibição : bloco em linha;
+        alinhamento vertical : topo;
+        text-align : esquerda;
+        cor : # 858585 ;
+        
+    }
+    
+    
+    # centro-médico {
+        largura :  200x ; _
+        altura :  350px ; _
+        margem-topo : 0 ;
+        margem inferior :  0 ;
+        margem esquerda : 60 % ;
+        ajuste ao objeto : capa;
+        
+    }
+    
+    # médico {
+        cor de fundo :  # ff0077 ;
+        largura :  200x ; _
+        altura :  350px ; _
+    }
+    # título-doutor {
+        tamanho da fonte :  32 px ;
+        cor :  #ffffff ; _
+        margem superior :  -330 px ;
+        margem esquerda :  37 % ;
+    }
+    
+    # texto-doutor {
+        text-align : direita;
+        cor : branco;
+      
+        margem direita :  45 % ;
+    }
+    # texto-doutor2 {
+        text-align : direita;
+        cor : # ffd8ea ;
+        margem-topo : 0 ;
+        margem direita :  45 % ;
+    }
+    
+    # farmacia-pet {
+    
+      largura :  200x ; _
+    altura :  350px ; _
+    margem-topo : 0 ;
+    margem inferior : 0 ;
+    margem esquerda :  -10 px ;
+    ajuste ao objeto : capa;
+    }
+    
+    # titulo-farmacia {
+    tamanho da fonte :  32 px ;
+    cor :  #ffffff ; _
+    text-align : esquerda;
+    margem esquerda :  45 % ;
+    margem superior :  -25 % ;
+    
+    
+    }
+    #farmacia { _
+    cor de fundo :  # 0077ff ;
+    largura :  200x ; _
+    altura :  350px ; _
+    }
+    # text-farmacia {
+    cor :  #ffffff ; _
+    text-align : esquerda;
+    margem esquerda :  45 % ;
+    margem-topo :  0 ;
+    
+    }
+    # text-farmacia2 {
+    cor : #cecece ; _
+    
+    text-align : esquerda;
+    margem esquerda :  45 % ;
+    margem-topo :  0 ;
+    }
+    
+        
+    
+    
+    # tele-img {
+    largura :  450px ; _
+    altura :  350px ; _
+    margem-topo : 0 ;
+    margem inferior : 0 ;
+    margem esquerda :  65 % ;
+    ajuste ao objeto : capa;
+    }
+    
+    # tele-entrega {
+      cor de fundo :  # FF320D ;
+    largura :  200x ; _
+    altura :  350px ; _
+    }
+    
+    # title-tele {
+    tamanho da fonte :  32 px ;
+    cor :  #ffffff ; _
+    margin-top :  -300 px ;
+    margem esquerda :  40 % ;
+    
+    }
+    
+    # teletexto {
+        text-align : direita;
+        cor : branco;
+        margem-topo :-  300px ; _
+        margem direita :  45 % ;
+    }
+    # texto-tele2 {
+        text-align : direita;
+        cor : #cecece ; _
+        margem-topo : 0 ;
+        margem direita :  45 % ;
+    }
+    
+    # tele-busca-img {
+    
+      largura :  200x ; _
+      altura :  350px ; _
+      margem-topo : 0 ;
+      margem inferior : 0 ;
+      margem esquerda :  -10 px ;
+      ajuste ao objeto : capa;
+    }
+    
+    # telebusca {
+        cor de fundo :  # C10DFF ;
+        largura :  200x ; _
+        altura :  350px ; _
+    }
+    
+    # titulo-busca {
+    tamanho da fonte :  32 px ;
+    cor :  #ffffff ; _
+    text-align : esquerda;
+    margem esquerda :  45 % ;
+    margem superior :  -25 % ;
+    }
+    # text-busca {
+        cor :  #ffffff ; _
+        text-align : esquerda;
+        margem esquerda :  45 % ;
+        margem-topo :  0 ;
+    
+    }
+    # text-busca2 {
+        cor : #cecece ; _
+        text-align : esquerda;
+        margem esquerda :  45 % ;
+        margem-topo :  0 ;
+    }
+    
+    
+    # creche-img {
+        largura :  450px ; _
+        altura :  350px ; _
+        margem-topo : 0 ;
+          margem inferior : 0 ;
+        margem esquerda :  65 % ;
+        ajuste ao objeto : capa;
+    
+    }
+    
+    # creche {
+        cor de fundo : # 6cf515 ;
+        largura :  200x ; _
+        altura :  350px ; _
+          }
+    
+    # title-creche {
+        tamanho da fonte :  32 px ;
+        cor :  #ffffff ; _
+        margin-top :  -300 px ;
+        margem esquerda :  40 % ;
+    
+    }
+    
+    # creche de texto {
+        text-align : direita;
+        cor : branco;
+        margem-topo :-  300px ; _
+        margem direita :  45 % ;
+    }
+    # text-creche2 {
+        text-align : direita;
+        cor :  #cecece ; _
+        margem-topo : 0 ;
+        margem direita :  45 % ;
+    }
+    
+    
+    # hotel-img {
+    
+    largura :  550px ; _
+    altura :  350px ; _
+    margem-topo : 0 ;
+    margem inferior : 0 ;
+    margem esquerda :  -10 px ;
+    ajuste ao objeto : capa;
+    }
+    
+    # hotel {
+    cor de fundo : # 382c32 ;
+    largura :  200x ; _
+    altura :  350px ; _
+    }
+    
+    # título-hotel {
+    tamanho da fonte :  32 px ;
+    cor :  #ffffff ; _
+    text-align : esquerda;
+    margem esquerda :  45 % ;
+    margem superior :  -25 % ;
+    }
+    # texto-hotel {
+      cor :  #ffffff ; _
+      text-align : esquerda;
+      margem esquerda :  45 % ;
+      margem-topo :  0 ;
+    
+    }
+    # texto-hotel2 {
+      cor : #cecece ; _
+      text-align : esquerda;
+      margem esquerda :  45 % ;
+      margem-topo :  0 ;
+    }
+    
+    . rodapé
+    
+            
+    
+    /* Fale conosco*/
+    # título-contato {
+        margem superior :  10 % ;
+        tamanho da fonte :  36 px ;
+        margem esquerda : 20 % ;
+        cor :  # 382c32 ;
+    }
+    . item de formulário {
+        
+        largura :  35 % ;
+        min-height :  20 px ;
+        margem inferior :  10 px ;
+        box-sizing : border-box;
+        margem esquerda :  20 % ;
+        decoração de texto : nenhuma;  
+        font-family :  'Open Sans' , sans-serif;
+        estilo de borda : sólido;
+        cor da borda :  # 858585 ;
+        raio da borda : 5 px ;
+        largura da borda : fina;
+        padding-bottom :  50 px ;
+    }
+    
+    
+    
+    # botão-enviar {
+      largura : 130px ; _
+      altura : 40px ; _
+      tamanho da fonte :  16 px ;
+      cor : #ffffff ; _
+      cor de fundo : # ff0077 ;
+      raio da borda : 10 px ;
+      margem esquerda :  20 % ;
+      margem superior :  10 px ;
+      margem inferior :  300 px ;
+      estilo de borda : nenhum;
+    }
+    . forma de título {
+        cor :  # 858585 ;
+        margem esquerda :  20 % ;
+    }
+    . título-inf {
+        cor : # 858585 ;
+        tamanho da fonte :  14 px ;
+    }
+    
+    . inf  { _
+        margem superior :  5 px ;
+        margem inferior :  1 px ;
+      }
+    
+    . inf {
+        margem esquerda :  60 % ;
+        margem superior :  -57 % ;
+    }
+    . informa-contato
+    {
+        cor de fundo :  # ff0077 ;
+        cor : # ffd8ea ;
+      padding-top :  20 px ;
+      fundo de preenchimento :  40 px ;
+      margin-left : auto;
+      margin-right : auto;
+      margem superior :  15 % ;
+      text-align : esquerda;
+    }
+    
