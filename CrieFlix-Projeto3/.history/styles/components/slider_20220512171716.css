@@ -1,0 +1,16 @@
+.slider{
+    margin: 70px;
+}
+
+.slider__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.slider__title{
+    color: var(--color-white);
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+}

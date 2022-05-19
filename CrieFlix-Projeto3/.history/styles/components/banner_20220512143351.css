@@ -1,0 +1,21 @@
+.banner{
+    background-image: linear-gradient(to bottom,rgb(0,0,0) 0%,rgba(0,0,0,0.35) 40%,rgba(0,0,0,0.9) 100%), url('../../background.jpg');
+    height: 720px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner__title{
+    font-size: 65px;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+    color:#ffffff;
+    margin-bottom: 20px;
+}
+
+.banner__subtitle{
+    font-size: 20px;
+    line-height: 32px;
+    color:#ffffff;
+}

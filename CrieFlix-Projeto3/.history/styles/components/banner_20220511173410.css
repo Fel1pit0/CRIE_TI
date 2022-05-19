@@ -1,0 +1,18 @@
+.banner{
+    background-image: url('../../background.jpg');
+    margin:100%
+
+}
+
+.banner__title{
+    font-size: 65px;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+    color:#ffffff;
+}
+
+.banner__subtitle{
+    font-size: 20px;
+    line-height: 32px;
+    color:#ffffff;
+}

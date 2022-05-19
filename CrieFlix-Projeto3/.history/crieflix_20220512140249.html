@@ -5,21 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Crieflix</title>
-    <!--Base-->
-  <link rel="stylesheet" href="styles/base/variables.css">
   <link rel="stylesheet" href="styles/base/reset.css">
-  <link rel="stylesheet" href="styles/base/base.css">
-    <!--Layout-->
   <link rel="stylesheet" href="styles/layout/header.css">
-  <link rel="stylesheet" href="styles/layout/footer.css">
-    <!--Components-->
+  <link rel="stylesheet" href="styles/base/base.css">
   <link rel="stylesheet" href="styles/components/button.css">
-  <link rel="stylesheet" href="styles/components/input.css">
-  <link rel="stylesheet" href="styles/components/input-group.css">
   <link rel="stylesheet" href="styles/components/banner.css">
-  <link rel="stylesheet" href="styles/components/slider.css">
-  <link rel="stylesheet" href="styles/components/cover.css">
-    <!--Fonts-->
+
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
@@ -55,7 +47,7 @@
                 <span class="header__menu__item__text">Séries</span>
             </a>
             <a href="#" class="header__menu__item">
-                <svg class="header__menu__item__icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                <svg  class="header__menu__item__icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.33203 7.66667C3.87179 7.66667 3.4987 8.03976 3.4987 8.5V17.6667C3.4987 18.1269 3.87179 18.5 4.33203 18.5H17.6654C18.1256 18.5 18.4987 18.1269 18.4987 17.6667V8.5C18.4987 8.03976 18.1256 7.66667 17.6654 7.66667H4.33203ZM1.83203 8.5C1.83203 7.11929 2.95132 6 4.33203 6H17.6654C19.0461 6 20.1654 7.11929 20.1654 8.5V17.6667C20.1654 19.0474 19.0461 20.1667 17.6654 20.1667H4.33203C2.95132 20.1667 1.83203 19.0474 1.83203 17.6667V8.5Z" />
                     <path d="M6.24408 2.07611C6.56951 1.75067 7.09715 1.75067 7.42259 2.07611L11 5.65352L14.5774 2.07611C14.9028 1.75067 15.4305 1.75067 15.7559 2.07611C16.0814 2.40155 16.0814 2.92918 15.7559 3.25462L11.5893 7.42129C11.2638 7.74672 10.7362 7.74672 10.4107 7.42129L6.24408 3.25462C5.91864 2.92918 5.91864 2.40155 6.24408 2.07611Z" />
                     <path d="M9.00911 16.1669C8.86745 16.1669 8.71745 16.1336 8.59245 16.0503C8.33411 15.9003 8.17578 15.6253 8.17578 15.3336V10.8253C8.17578 10.5253 8.33411 10.2503 8.59245 10.1086C8.85078 9.95859 9.16745 9.95859 9.42578 10.1086L13.3924 12.3669C13.6508 12.5169 13.8174 12.7919 13.8174 13.0919C13.8174 13.3919 13.6591 13.6669 13.3924 13.8169L9.42578 16.0753C9.29245 16.1253 9.15078 16.1669 9.00911 16.1669ZM9.30911 11.3086V14.8419L12.4091 13.0753L9.30911 11.3086Z" />
@@ -65,174 +57,15 @@
         </nav>
         <a href="#" class="button header__sign-in">Entrar</a>
     </header>
-        <!--Banner-->
     <section class="banner">
-        <div class="banner__content">
-            <h1 class="banner__title">
-                Filmes, séries e muito mais.<br/>
-                Sem limites.
-            </h1>
-            <h5 class="banner__subtitle">
-                Assista onde quiser. Cancele quando quiser.
-            </h5>
-                <!--Input_Button-->
-            <form class="input-group" action="/backend.php" method="post">
-                <input class="input" type="email" id="email" name="email" placeholder="Insira seu e-mail"/>
-                <button class="button button--large">Assinar</button>
-            </form>
-        </div>
+        <div class="banner__gradient"></div>
+        <h1 class="banner__title">
+            Filmes, séries e muito mais.<br/>
+            Sem limites.
+        </h1>
+        <h5 class="banner__subtitle">
+            Assista onde quiser. Cancele quando quiser.
+        </h5>
     </section>
-
-    <section class="content">
-        
-        <div class="slider">
-            <div class="slider__header">
-                <h4 class="slider__title">Populares</h4>
-                <a href="#" class="slider_more">
-                    <span class="slider__more__text">Ver todos</span>
-                    <svg class="slider__more__icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.66536 11.9154L14.8212 11.9154L9.69703 17.0395L10.9987 18.332L18.332 10.9987L10.9987 3.66536L9.7062 4.95786L14.8212 10.082L3.66536 10.082L3.66536 11.9154Z" />
-                    </svg>
-                </a>
-            </div>
-
-            <div class="slider_track">
-
-                <div class="cover">
-                    <img class="cover__image" src="popular/homem-aranha.webp">
-                    <span class="cover__title">Homem-Aranha: Sem volta para casa</span>
-                </div>
-
-                <div class="cover">
-                    <img class="cover__image" src="popular/viuva-negra.webp">
-                    <span class="cover__title">Viúva Negra</span>
-                </div>
-
-                <div class="cover">
-                    <img class="cover__image" src="popular/batman.webp">
-                    <span class="cover__title">Batman</span>
-                </div>
-                
-                <div class="cover">
-                    <img class="cover__image" src="popular/projeto-adam.webp">
-                    <span class="cover__title">O Projeto Adam</span>
-                </div>
-
-                <div class="cover">
-                    <img class="cover__image" src="popular/venom.webp">
-                    <span class="cover__title">Venom</span>
-                </div>
-
-                <div class="cover">
-                    <img class="cover__image" src="popular/homem-formiga.webp">
-                    <span class="cover__title">Homem-Formiga</span>
-                </div>
-
-                <div class="cover">
-                    <img class="cover__image" src="popular/o-massacre-da-serra-eletrica.webp">
-                    <span class="cover__title">O Massacre da Serra Elétrica: O Retorno de Leatherface</span>
-                </div>
-
-                <div class="cover">
-                    <img class="cover__image" src="popular/vingadores-ultimato.webp">
-                    <span class="cover__title">Vingadores: Ultimato</span>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="slider">
-            <div class="slider__header">
-                <h4 class="slider__title">Filmes</h4>
-                <a href="#" class="slider_more">
-                    <span class="slider__more__text">Ver todos</span>
-                    <svg class="slider__more__icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.66536 11.9154L14.8212 11.9154L9.69703 17.0395L10.9987 18.332L18.332 10.9987L10.9987 3.66536L9.7062 4.95786L14.8212 10.082L3.66536 10.082L3.66536 11.9154Z" />
-                    </svg>
-                </a>
-            </div>
-
-            <div class="slider_track">
-
-                <div class="cover cover--large">
-                    <img class="cover__image" src="films/vingadores-guerra-infinita.webp">
-                    <span class="cover__title">Vingadores: Guerra Infinita</span>
-                </div>
-
-                <div class="cover cover--large">
-                    <img class="cover__image" src="films/projeto-adam.webp">
-                    <span class="cover__title">O Projeto Adam</span>
-                </div>
-
-                <div class="cover cover--large">
-                    <img class="cover__image" src="films/velozes-furiosos.webp">
-                    <span class="cover__title">Velozes & Furiosos 9</span>
-                </div>
-                
-                <div class="cover cover--large">
-                    <img class="cover__image" src="films/godzilla-kong.webp">
-                    <span class="cover__title">Godzilla vs. Kong</span>
-                </div>
-
-                <div class="cover cover--large">
-                    <img class="cover__image" src="films/liga-da-justica.webp">
-                    <span class="cover__title">Liga da Justiça de Zack Snyder</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider">
-            <div class="slider__header">
-                <h4 class="slider__title">Séries</h4>
-                <a href="#" class="slider_more">
-                    <span class="slider__more__text">Ver todos</span>
-                    <svg class="slider__more__icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.66536 11.9154L14.8212 11.9154L9.69703 17.0395L10.9987 18.332L18.332 10.9987L10.9987 3.66536L9.7062 4.95786L14.8212 10.082L3.66536 10.082L3.66536 11.9154Z" />
-                    </svg>
-                </a>
-            </div>
-
-            <div class="slider_track">
-
-                <div class="cover cover--large">
-                    <img class="cover__image" src="series/sobrenatural.webp">
-                    <span class="cover__title">Supernatural</span>
-                </div>
-
-                <div class="cover cover--large">
-                    <img class="cover__image" src="series/lucifer.webp">
-                    <span class="cover__title">Lucifer</span>
-                </div>
-
-                <div class="cover cover--large">
-                    <img class="cover__image" src="series/o-bom-doutor.webp">
-                    <span class="cover__title">The Good Doctor</span>
-                </div>
-                
-                <div class="cover cover--large">
-                    <img class="cover__image" src="series/la-casa-de-papel.webp">
-                    <span class="cover__title">La Casa de Papel</span>
-                </div>
-
-                <div class="cover cover--large">
-                    <img class="cover__image" src="series/the-walking-dead.webp">
-                    <span class="cover__title">The Walking Dead</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <img class="footer__logo" src="logo.png"/>
-        <nav class="footer__nav">
-            <a href="#" class="footer__nav__link">Feedback</a>
-            <a href="#" class="footer__nav__link">Ajuda</a>
-            <a href="#" class="footer__nav__link">FAQ</a>
-        </nav>
-        <span class="footer__copy">
-            &copy;2022 Todos direitos reservados
-        </span>
-    </footer>
-
 </body>
 </html>
