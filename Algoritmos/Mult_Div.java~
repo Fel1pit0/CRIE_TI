@@ -1,0 +1,21 @@
+public class Mult_Div{
+  public static void main(String args[]){
+    int[] num= new int [2];
+    int i;
+    
+    for ( i=0; i<2; i++){
+      num[i]= (int)(Math.random()*100)+1;
+    }
+    
+    System.out.printf("Número sorteado: ");
+    for (i=0; i<num.length; i++){
+      System.out.printf(num[i]+" ");
+    }
+    
+    System.out.printf( "\n\n");
+    
+    if (num[i] * 5 == 0){
+      System.out.println("O número "+ num[i] +"é multiplo de 5");
+    }
+  }
+}

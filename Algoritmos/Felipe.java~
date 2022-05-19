@@ -1,0 +1,12 @@
+public class Cadastros{
+  public static void main(String args[]){
+    
+    while(opcao!- 0)
+    { System.out.print("[1] Cadastrar clientes");
+      System.out.print("[2] Cadastrar produtos");
+      System.out.print("[3] Cadastrar categorias");
+      System.out.print("[4] Listar clientes");
+      System.out.print("[5] Listar produtos");
+      System.out.print("[6] Listar categorias");
+      System.out.print("[7] Resumo (quantidades de registros de cada cadastro");
+      System.out.print("[8] Sair");

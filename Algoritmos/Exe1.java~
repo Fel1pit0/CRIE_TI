@@ -1,0 +1,13 @@
+public class Exe1
+{
+   public static void main(String[] args) {
+     
+     int num= Entrada.leiaInt("Digite um numero");
+     
+     tabuada (num);
+   }
+
+public static void tabuada (int tab)
+ for (int i = 1; i<= 10; i++)
+{int result1= tab*i;
+ System.out.println("" +result1);}

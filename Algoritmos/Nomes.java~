@@ -1,0 +1,15 @@
+public class Nomes {
+  public static void main(String[] args){
+    String[] nomes= new String[3];
+    
+    nomes[0]= "Pedro";
+    nomes[1]= "Paulo";
+    nomes[2]= "Maria";
+                         
+       if(nomes[i].equalsIgnoreCase("a")){
+        juca++;
+    }
+  }
+}
+    
+    

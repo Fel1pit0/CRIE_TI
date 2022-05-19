@@ -1,0 +1,24 @@
+public class Exe2 {
+  public static void main (String args[]){   
+    int semana;
+    semana= Entrada.leiaInt ("Digite um numero entre 1 e 7:");
+    while ((semana<1) || (semana>7)) {
+      idade= Entrada.leiaInt ("Número INVÁLIDO! Digite um valor entre 1 e 7.");
+    }
+    System.out.println ("O nadador é da categoria "+categoria(idade));
+  }
+  
+  public static String categoria (int num) {
+    if (num<=7) {
+      return ("INFANTIL A");
+    }else if (num<=10) {
+        return ("INFANTIL B");
+      }else if (num<=13) {
+        return ("JUVENIL A");
+       }else if (num<=17) {
+        return ("JUVENIL B");
+        }else {
+        return ("ADULTO");
+    }
+  }
+}

@@ -1,0 +1,45 @@
+public class Programa {
+  
+  public static void main(String[] args) {
+    try {
+      Programa programa = new Programa();
+      programa.executar();
+    } catch (Throwable t) {
+      t.printStackTrace();
+    } finally {
+      System.exit(0);
+    }
+  }
+  
+  public void executar() {
+    // a) obter os valores das temperaturas;
+    double[] temperaturas = obterTemperaturas();
+    
+    // b) calcular a média desses valores;
+    double media = calcularMedia(temperaturas);
+    System.out.println("media: " + media);
+    
+    // c) verificar quantos deles são maiores que a média.
+    int quantos = maioresQueMedia(temperaturas, media);
+    System.out.println("maiores que media: " + quantos);
+    
+    // d) Apresentar os valores maiores que a média ordenados de forma crescente.
+    apresentarMaioresQueMediaOrdemCrescente(temperaturas, media);
+  }
+  
+  private double[] obterTemperaturas() {
+    // aqui você implementa o código para obter as temperaturas
+  }
+  
+  private double calcularMedia(double[] temperaturas) {
+    // aqui você implementa o cálculo da média
+  }
+  
+  private int maioresQueMedia(double[] temperaturas, double media) {
+    // aqui você verifica quantos são maiores que a média
+  }
+  
+  private void apresentarMaioresQueMediaOrdemCrescente(double[] temperaturas, double media) {
+    // aqui você ordena de forma crescente e apresenta os valores maiores que a media
+  }
+}

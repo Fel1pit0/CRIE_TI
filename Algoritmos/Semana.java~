@@ -1,0 +1,29 @@
+public class Semana{
+   public static void main(String[] args) {
+      int n;
+      n= Entrada.leiaInt("Digite um numero de 1 á 7");
+      while ((n<5) || (n>120)) {
+      n= Entrada.leiaInt ("Idade INVÁLIDA! Digite um valor entre 5 e 120.");
+    }
+      System.out.println ("O resultado da operação é"+result(n));}
+     
+   public static String result (int sem){  
+     if (sem<=1) {
+      return ("SEGUNDA-FEIRA");
+    }else if (sem<=2) {
+        return ("TERCEIRA-FEIRA");
+      }else if (sem<=3) {
+        return ("QUARTA-FEIRA");
+       }else if (sem<=4) {
+        return ("QUINTA-FEIRA");
+       }else if (sem<=5){
+        return ("SEXTA-FEIRA");
+       }else if (sem<=6) {
+        return ("SABÁDO");
+       }else if (sem<=7) {
+         return ("DOMINGO");
+         
+       }
+   }
+}
+            
