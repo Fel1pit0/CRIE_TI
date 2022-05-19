@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="description" content="Uma página para quem gosta de HTML, CSS e pudim"/>
+  <meta name="keywords" content="HTML, CSS, JavaScript"/>
+  <meta name="author" content="John Doe"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elementos HTML</title>
+  <base href="/"/>
+  <!-- <script type="text/javascript" src="arquivo.js"></script> -->
+  <!-- <link rel="stylesheet" href="arquivo.css"></link> -->
+  <style type="text/css">
+    h4 {
+      margin: 40px 0 10px 0;
+    }
+
+    h3 + h4 {
+      margin: initial;
+    }
+
+    hr {
+      margin: 80px 0;
+    }
+
+    table, tr, th, td {
+      border: 1px solid #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Elementos de bloco</h3>
+
+  <h4>Parágrafo</h4>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur optio doloribus odio illum modi nobis ab repudiandae inventore, non mollitia accusantium omnis, at maxime rerum harum ad et sapiente consequatur?</p>
+
+  <h4>Cabeçalhos</h4>
+  <h1>Título 1</h1>
+  <h2>Título 2</h2>
+  <h3>Título 3</h3>
+  <h4>Título 4</h4>
+  <h5>Título 5</h5>
+  <h6>Título 6</h6>
+
+  <h4>Listas não ordenadas</h4>
+  <ul>
+    <li>Pudim</li>
+    <li>Brócolis</li>
+    <li>Picanha</li>
+  </ul>
+
+  <h4>Listas ordenadas</h4>
+  <ol>
+    <li>Picanha</li>
+    <li>Pudim</li>
+    <li>Brócolis</li>
+  </ol>
+
+  <h4>Citação longa</h4>
+  <blockquote>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam officia iure aliquid similique alias reprehenderit in aspernatur voluptate accusantium! At nisi laudantium eligendi molestias sed repudiandae voluptatibus ducimus adipisci debitis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel exercitationem blanditiis incidunt adipisci, aperiam atque ipsum esse repudiandae voluptate perspiciatis consequatur rerum, rem asperiores magnam itaque placeat maiores id doloremque.
+  </blockquote>
+
+  <h4>Pré formatado</h4>
+  <pre>
+    Texto pré formatado
+    com várias linhas
+    e     também   espaços
+  </pre>
+
+  <h4>Endereço</h4>
+  <address>
+    Av. Avelino Talini, 171
+    Bairro Universitário,
+    Lajeado / RS, 95914-014
+    Brasil
+  </address>
+
+  <h4>Iframe</h4>
+  <iframe width="560" height="315" src="https://www.univates.br/"></iframe>
+
+  <hr/>
+
+  <h3>Elementos de bloco</h3>
+
+  <h4>Âncora (hyperlink)</h4>
+  <a href="https://www.google.com/" target="_blank">Google</a>
+
+  <h4>Strikethrough</h4>
+  <s>Teste com Strikethrough</s>
+
+  <h4>Deleted</h4>
+  <del>Teste com Deleted</del>
+
+  <h4>Inserted</h4>
+  <ins>Teste com Inserted</ins>
+
+  <h4>Underlined</h4>
+  <u>Teste com Underlined</u>
+
+  <h4>Strong</h4>
+  <strong>Teste com Strong</strong>
+
+  <h4>Bold</h4>
+  <b>Teste com Bold</b>
+
+  <h4>Emphasis</h4>
+  <em>Teste com Emphasis</em>
+
+  <h4>Italic</h4>
+  <i>Teste com Italic</i>
+
+  <h4>Mark</h4>
+  <mark>Teste com Mark</mark>
+
+  <h4>Superscript</h4>
+  <p>Exemplo<sup>1</sup></p>
+
+  <h4>Subscript</h4>
+  <p>H<sub>2</sub>O</p>
+
+  <h4>Small</h4>
+  <p>Um texto <small>pequeno</small>.</p>
+
+  <h4>Variáveis</h4>
+  <p>A área do triângulo é: <var>b</var> * <var>h</var> / 2.</p>
+
+  <h4>Abreviação</h4>
+  <abbr title="Cascading Style Sheets">CSS</abbr>
+
+  <h4>Código</h4>
+  <p>A tag <code>code</code> é legal.</p>
+
+  <h4>Citação curta</h4>
+  <p>Uma <q>citação de um texto bem pequeno</q>.</p>
+
+  <h4>Citação</h4>
+  <p>Mais informações podem ser encontradas em <cite>[ISO-0000]</cite>.</p>
+
+  <h4>Tempo</h4>
+  <p>Aberto das <time>08:00</time> às <time datetime="2008-02-14 20:00">18:00</time>.</p>
+
+  <h4>Progresso</h4>
+  <progress value="30" max="100">30%</progress>
+
+  <h4>Meter</h4>
+  <meter value="2" min="0" max="10">2 de 10</meter>
+
+  <h4>SVG</h4>
+  <svg width="100px" height="100px">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4"/>
+  </svg>
+
+  <hr/>
+
+  <h3>Tabelas</h3>
+
+  <h4>Tabela simples</h4>
+  <table>
+    <tr>
+      <th>Título 1</th>
+      <th>Título 2</th>
+      <th>Título 3</th>
+      <th>Título 4</th>
+      <th>Título 5</th>
+      <th>Título 6</th>
+    </tr>
+    <tr>
+      <td>Célula 1</td>
+      <td>Célula 2</td>
+      <td>Célula 3</td>
+      <td>Célula 4</td>
+      <td>Célula 5</td>
+      <td>Célula 6</td>
+    </tr>
+    <tr>
+      <td>Célula 1</td>
+      <td>Célula 2</td>
+      <td>Célula 3</td>
+      <td>Célula 4</td>
+      <td>Célula 5</td>
+      <td>Célula 6</td>
+    </tr>
+  </table>
+
+  <h4>Tabela completa</h4>
+  <table>
+    <caption>Essa é uma tabela completa</caption>
+    <thead>
+      <tr>
+        <th>Título 1</th>
+        <th>Título 2</th>
+        <th>Título 3</th>
+        <th>Título 4</th>
+        <th>Título 5</th>
+        <th>Título 6</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Célula 1</td>
+        <td>Célula 2</td>
+        <td>Célula 3</td>
+        <td>Célula 4</td>
+        <td>Célula 5</td>
+        <td>Célula 6</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Célula 1</td>
+        <td>Célula 2</td>
+        <td>Célula 3</td>
+        <td>Célula 4</td>
+        <td>Célula 5</td>
+        <td>Célula 6</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <hr/>
+
+  <h3>Multimídia</h3>
+
+  <h4>Imagem</h4>
+  <img src="assets/imagem.webp" alt="Um delicioso pudim" width="400"/>
+
+  <h4>Vídeo</h4>
+  <video controls>
+    <source src="assets/video.ogg" type="video/ogg">
+    <source src="assets/video.mp4" type="video/mp4">
+    Seu navegador não suporta a tag de vídeo.
+  </video>
+
+  <h4>Áudio</h4>
+  <audio controls>
+    <source src="assets/audio.ogg" type="audio/ogg">
+    <source src="assets/audio.mp3" type="audio/mpeg">
+    Seu navegador não suporta a tag de áudio.
+  </audio>
+
+  <h4>Picture</h4>
+  <picture>
+    <source srcset="assets/imagem.webp" type="image/webp" media="(min-width:800px)" width="800">
+    <source srcset="assets/imagem-2.jpg" type="image/jpeg" media="(min-width:400px)" width="400">
+    <img src="assets/imagem-3.jpg" alt="Um delicioso pudim" width="200"/>
+  </picture>
+
+  <h4>Figure</h4>
+  <figure>
+    <img src="assets/imagem.webp" alt="Um delicioso pudim" width="400"/>
+    <figcaption>Figura 1: pudim</figcaption>
+  </figure>
+
+  <hr/>
+
+  <h3>Formulários</h3>
+
+  <form>
+
+    <h4>Checkbox</h4>
+    <fieldset>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> I have a bike</label>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2"> I have a car</label>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3"> I have a boat</label>
+    </fieldset>
+
+    <h4>Radio button</h4>
+    <fieldset>
+      <input type="radio" id="language1" name="language" value="HTML">
+      <label for="language1">HTML</label>
+      <input type="radio" id="language2" name="language" value="CSS">
+      <label for="language2">CSS</label>
+      <input type="radio" id="language3" name="language" value="JavaScript">
+      <label for="language3">JavaScript</label>
+    </fieldset>
+
+    <h4>Text</h4>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" value="John Doe" disabled>
+
+    <h4>Email</h4>
+    <label for="email">Endereço de e-mail:</label>
+    <input type="email" id="email" name="email" placeholder="nome@dominio.com">
+
+    <h4>Number</h4>
+    <label for="quantity">Quantidade (entre 1 e 5):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+
+    <h4>Tel</h4>
+    <label for="phone">Número de telefone:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <h4>Password</h4>
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password">
+
+    <h4>URL</h4>
+    <label for="url">Insira sua página:</label>
+    <input type="url" id="url" name="url">
+
+    <h4>Search</h4>
+    <label for="search">Buscar:</label>
+    <input type="search" id="search" name="search">
+
+    <h4>Hidden</h4>
+    <label for="hidden">Valor escondido:</label>
+    <input type="hidden" id="hidden" name="hidden" value="123456">
+
+    <h4>File</h4>
+    <label for="file">Selecione um arquivo:</label>
+    <input type="file" id="file" name="file">
+
+    <h4>Date</h4>
+    <label for="date">Data de nascimento:</label>
+    <input type="date" id="date" name="date">
+
+    <h4>Time</h4>
+    <label for="time">Hora de nascimento:</label>
+    <input type="time" id="time" name="time">
+
+    <h4>Datetime</h4>
+    <label for="datetime">Data e hora de nascimento:</label>
+    <input type="datetime-local" id="datetime" name="datetime">
+
+    <h4>Week</h4>
+    <label for="week">Informe uma semana:</label>
+    <input type="week" id="week" name="week">
+
+    <h4>Month</h4>
+    <label for="month">Informe um mês e ano:</label>
+    <input type="month" id="month" name="month">
+
+    <h4>Color</h4>
+    <label for="color">Selecione sua cor favorita:</label>
+    <input type="color" id="color" name="color">
+
+    <h4>Range</h4>
+    <label for="range">Volume (entre 0 e 50):</label>
+    <input type="range" id="range" name="range" min="0" max="50">
+
+    <h4>Button</h4>
+    <input type="button" value="Botão">
+
+    <h4>Submit</h4>
+    <input type="submit" value="Enviar o formulário">
+
+    <h4>Reset</h4>
+    <input type="reset" value="Limpar o formulário">
+
+    <h4>Image</h4>
+    <input type="image" src="assets/submit.png" width="200px">
+
+    <h4>Textarea</h4>
+    <label for="textarea">Área de texto:</label>
+    <textarea id="textarea" name="textarea" rows="4"></textarea>
+
+    <h4>Select simples</h4>
+    <label for="select1">Selecione uma opção:</label>
+    <select id="select1" name="select1">
+      <option value="0" selected disabled></option>
+      <option value="1">Opção 1</option>
+      <option value="2">Opção 2</option>
+      <option value="3">Opção 3</option>
+      <option value="4">Opção 4</option>
+      <option value="5">Opção 5</option>
+    </select>
+
+    <h4>Select agrupado</h4>
+    <label for="select2">Selecione uma opção:</label>
+    <select id="select2" name="select2">
+      <optgroup label="Grupo 1">
+        <option value="1">Opção 1</option>
+        <option value="2">Opção 2</option>
+      </optgroup>
+      <optgroup label="Grupo 2">
+        <option value="3">Opção 3</option>
+        <option value="4">Opção 4</option>
+        <option value="5">Opção 5</option>
+      </optgroup>
+    </select>
+
+    <h4>Select múltiplo</h4>
+    <label for="select3">Selecione várias opções:</label>
+    <select multiple id="select3" name="select3">
+      <option value="1">Opção 1</option>
+      <option value="2">Opção 2</option>
+      <option value="3">Opção 3</option>
+      <option value="4">Opção 4</option>
+      <option value="5">Opção 5</option>
+    </select>
+
+  </form>
+
+</body>
+</html>
