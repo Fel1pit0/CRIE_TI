@@ -1,0 +1,30 @@
+.button{
+    height: 40px;
+    padding: 10px 24px;
+    font-size: var(--font-size-default);
+    line-height: 22px;
+    border-radius: var(--border-radius-default);
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+    border: none;
+}
+
+.button--large{
+    height: 60px;
+}
+
+@media only screen and (max-width: 480px){
+    .button{
+        height: 26px;
+        padding: 2px 12px;
+        font-size: 12px;
+    }    
+
+    .button--large{
+        height: 48px;
+        font-size: var(--font-size-default);
+        line-height: 22px;
+        padding: 14px 16px;
+    }
+}

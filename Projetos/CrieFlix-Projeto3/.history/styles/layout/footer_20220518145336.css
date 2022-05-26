@@ -1,0 +1,8 @@
+.footer{
+    border-top: 5px solid var(--color-darken-gray);
+    padding: 48px 70px;
+}
+
+.footer__logo{
+    width: 170px;
+}

@@ -1,0 +1,26 @@
+.header{
+    margin: 40px 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__logo{
+    width: 170px;
+    margin-right: 64px;
+
+}
+
+.header__menu{
+    display: inline-block;
+
+}
+
+.header__sign-in{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.header__imgs{
+    align-items: center;
+}

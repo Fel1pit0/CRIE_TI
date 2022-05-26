@@ -1,0 +1,9 @@
+.input-group .input{ 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group .bottom{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

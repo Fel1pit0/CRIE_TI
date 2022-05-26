@@ -1,0 +1,43 @@
+.header{
+    margin: 40px 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__logo{
+    width: 170px;
+    margin-right: 64px;
+
+}
+
+.header__menu{
+    display: inline-block;
+
+}
+
+.header__menu__item{
+    color: #737174;
+    text-decoration: none;
+}
+
+.header__menu__item--active{
+    color: #ffffff;
+}
+
+.header__menu__item svg{
+    fill:#737174;
+}
+
+.header__menu__item--active svg{
+    fill:#737174;
+}
+
+.header__sign-in{
+    margin-left: auto;
+    margin-right: 0;
+}

@@ -1,0 +1,16 @@
+.header{
+    margin: 40px 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__logo{
+    width: 170px;
+    margin-right: 64px;
+
+}
+
+.header__menu{
+    display: inline-block;
+
+}

@@ -1,0 +1,33 @@
+@use "variables";
+
+body{
+    color: variables.$color-primary;
+}
+
+//section{
+//   background-color: red;
+//}
+
+//section div{
+//    color: green;
+//}
+
+//section div span{
+//    font-weight: bold;
+//}
+
+section{
+    background-color: red;
+    div{
+        color:green;
+
+    span{
+        font-weight: bold;
+        }
+    }
+}
+
+@mixin textBox($backgound){
+    border: 2px solid black;
+    color: #ffffff;    
+}
