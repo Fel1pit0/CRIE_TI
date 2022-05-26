@@ -1,0 +1,16 @@
+.header__menu{
+    margin: 30px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 1;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__menu__text{
+    margin: 10px;
+    color: black;
+}

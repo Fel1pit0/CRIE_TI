@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    width: 1366px;
+    height: 72px;
+    top: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5.26%;
+    bottom: 0%;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #EAEAEA;
+    backdrop-filter: blur(4px);
+}
+
+.header__menu{
+    margin: 30px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 1;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__menu__text{
+    margin: 10px;
+    color: black;
+}
